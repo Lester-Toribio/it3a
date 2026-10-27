@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS activity_logs(
       activity_log_created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
---Table #3 users tables
+-- Table #3 users tables
 CREATE TABLE IF NOT  EXISTS USERS(
 
 --PRIMARY KEY FOR USERS TABLE 
@@ -37,9 +37,9 @@ ON UPDATE CURRENT_TIMESTAMP
 
 
 
-)
+);
 
---insert query # 1
+-- insert query # 1
 
 INSERT INTO users
 (
